@@ -56,3 +56,7 @@ gem 'haml-rails'
 gem 'font-awesome-rails'
 gem 'font-awesome-sass'
 gem 'font_awesome5_rails'
+
+group :production do
+  gem 'unicorn', '5.4.1'
+end
