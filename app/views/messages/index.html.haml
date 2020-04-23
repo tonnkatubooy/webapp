@@ -1,0 +1,21 @@
+= form_for(@message, url: { action: :confirm }) do |f|
+  .contact-header
+    .contact-header_row
+      %h1 CONTACT US  
+      %h3 Fill out the form below to learn more!
+    - if @message.errors.present?
+      %div
+        %strong.errorText 入力内容にエラーがあります
+        %ul
+          - @message.errors.each do |attr, error|
+            %li= error
+    %div
+      %strong.label お名前
+      %p= f.text_field :name, placeholder: 'お名前', class: "input"
+    %div
+      %strong.label メールアドレス
+      %p= f.text_field :email, placeholder: 'example@gmail.com', class: "input"
+    %div
+      %strong.label お問い合わせ内容
+      %p= f.text_area :content, placeholder: '例）採用に関して〜 案件に関して〜等', class: "input-text"
+    = f.submit '入力内容を確認',class: 'send-btn'

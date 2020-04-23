@@ -1,0 +1,130 @@
+.btn_light{
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+.container{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center!important;
+  &_row{
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    display: flex;
+    &_box{
+      margin-right: auto;
+    }
+  }
+}
+.content-section{
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+.color-title{
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #ecb807;
+}
+.container_row_box_content h2{
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+.col-lg-6{
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.icon{
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  float: left;
+  &-img{
+    border-radius: 50%;
+    width: 30%;
+    height: 30%;
+    padding: 20px;
+  }
+}
+.icon-mark{
+  background-color: #fff;
+  color: #66b7ec;
+  height: 7rem;
+  width: 7rem;
+  display: block;
+  line-height: 7.5rem;
+  font-size: 2.25rem;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.lead{
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-bottom: 3rem;
+}
+.text-left{
+  text-align: left;
+}
+.ul{
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.ul li{
+  margin-bottom: 10px;
+  color: #3B3C3D;
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.btn-dark{
+  background-color: #343a40;
+  border-color: #343a40;
+  color: white;
+  margin-bottom: 7.5rem;
+}
+.content-section{
+  text-align: center;
+  padding-bottom: 7.5rem;
+}
+.bg-primary{
+  background-color: #66b7ec;
+  padding-top: 7.5rem;
+  color: #fff;
+}
+.fab{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+.col-lg-3{
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  &_text{
+    color: rgba(255, 255, 255, .7);
+    margin-bottom: 0!important;
+  }
+}
+.portfolio-item{
+  color: rgb(155, 175, 229);
+  text-decoration: none;
+}

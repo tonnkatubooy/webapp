@@ -1,0 +1,22 @@
+= form_for @message, :url => done_path do |f|
+  .contact-header
+    .contact-header_row
+      %h1 CONTACT US 
+      %h2 お問い合わせ内容確認
+    .confirm-name
+      %strong お名前
+      %p
+        = f.hidden_field :name
+        = @message.name
+    .e-mail
+      %strong メールアドレス
+      %p
+        = f.hidden_field :email
+        = @message.email
+    .confirm-message
+      %strong お問い合わせ内容
+      %p
+        = f.hidden_field :content
+        = simple_format(@message.content)
+    = f.submit '内容を修正する', name: 'back', class: 'back-btn'
+    = f.submit '送信する', class: 'send-btn'

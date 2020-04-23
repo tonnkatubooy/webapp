@@ -1,0 +1,33 @@
+.footer{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #f8f9fa;
+  display: block;
+  &-list{
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 3rem;
+    &-inline{
+      display: inline-block;
+      margin-right: .5rem;
+      margin-bottom: 10px;
+      color: #3B3C3D;
+    }
+  }
+}
+.social-link{
+  display: block;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4.3rem;
+  font-size: 1.5rem;
+  background-color: #66b7ec;
+  color: #fff;
+  border-radius: 50%;
+}
+.text-muted{
+  color: #6c757d;
+  margin-bottom: 0;
+  font-size: 80%;
+  font-weight: 400;
+}
